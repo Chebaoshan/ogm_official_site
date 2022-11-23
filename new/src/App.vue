@@ -7,7 +7,9 @@
     <div class="l-all-wrapper js-all-wrapper--top">
         <commonHeader></commonHeader>
         <div class="l-all-wrapper_inner s-top-noinfo">
-            <commonFooter></commonFooter>
+            <router-view>
+            </router-view>
+        <commonFooter></commonFooter>
         </div>
     </div>
 </template>

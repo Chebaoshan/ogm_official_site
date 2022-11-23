@@ -1,9 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
+import Home from "../components/Home.vue"
 const routes = [
   {
     path: "/",
+    redirect: { name: "home" },
+  },
+  {
+    path: "/home",
     name: "home",
-    component: () => import("../components/Home.vue"),
+    component: Home,
   },
   {
     path: "/company",
@@ -51,14 +56,24 @@ const routes = [
     component: () => import("../components/Representative.vue"),
   },
   {
+    path: "/management",
+    name: "management",
+    component: () => import("../components/Management.vue"),
+  },
+  {
     path: "/success",
     name: "success",
     component: () => import("../components/Success.vue"),
   }
 ];
 const router = createRouter({
+  scrollBehavior() {
+    return {
+      top: 0,
+      behavior: "smooth"
+    }
+  },
   history: createWebHistory(),
   routes,
 });
-
 export default router;

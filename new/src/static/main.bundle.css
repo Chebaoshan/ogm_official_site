@@ -6333,7 +6333,7 @@ b {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% auto;
-    background-image: url("../../public/c_icon_blank.svg")
+    background-image: url("/c_icon_blank.svg")
 }
 
 .s-top-support {
@@ -6627,7 +6627,7 @@ b {
     position: absolute;
     top: -10px;
     left: -10px;
-    background-image: url(../../public/bq.svg);
+    background-image: url("/bq.svg");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100% auto;

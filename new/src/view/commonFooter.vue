@@ -1,7 +1,8 @@
 <template>
+    <div class="js-move2"></div>
     <!-- CommonCta -->
     <section class="m-cta common-move_half js-scrollaction-target">
-        <div class="m-cta_image"><img class="js-lazyload" data-src="/image_02.jpg" alt=""></div>
+        <div class="m-cta_image"><img class="js-lazyload" src="/image_02.jpg" alt=""></div>
         <div class="m-cta_inner">
             <h5 class="m-cta_title common-font-bold"><span
                     class="m-cta_title-border common-horizontal2 js-scrollaction-target"></span>さぁ、ご一緒に<br>はじめていきましょう。
@@ -24,21 +25,27 @@
             <div class="l-footer_nav common-font-bold">
                 <ul>
                     <li>会社情報 <ul class="common-font-normal">
-                            <li><a href="representative_message.html">- 代表メッセージ</a></li>
-                            <li><a href="management_policy.html">- 経営方針</a></li>
-                            <li><a href="company_profile.html">- 会社概要</a></li>
-                            <li><a href="history.html">- 沿革</a></li>
+                            <li><router-link to="/representative">- 代表メッセージ</router-link></li>
+                            <li><router-link to="/management">- 経営方針</router-link></li>
+                            <li><router-link to="/company">- 会社概要</router-link></li>
+                            <li><router-link to="/history">- 沿革</router-link></li>
                         </ul>
                     </li>
                 </ul>
                 <ul>
-                    <li><a href="employment_information.html">採用情報</a></li>
-                    <li><a href="education.html">教育</a></li>
-                    <li><a href="news.html">ニュース</a></li>
+                    <li>
+                            <router-link to="/employment">採用情報</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/education">教育</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/news">ニュース</router-link>
+                        </li>
                 </ul>
                 <div class="l-footer_nav-type1">
                     <ul>
-                        <li><a href="inquiry.html">お問い合わせ</a></li>
+                        <li><router-link to="/inquiry">お問い合わせ</router-link></li>
                     </ul>
                     <div class="l-footer_sub-nav common-font-normal">
                         <ul>

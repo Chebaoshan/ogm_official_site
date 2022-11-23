@@ -263,7 +263,7 @@ a {
 	background-color: #2d2d2d;
 	overflow: hidden;
 	padding: 0 5% 25px 5%;
-	background: url(../img/bg-pic2.png) no-repeat;
+	background: url("/bg-pic2.png") no-repeat;
 	background-size: 100% 100%;
 }
 
@@ -431,7 +431,7 @@ a {
 }
 
 .three-reason {
-	background: url(../img/bg-pic.png) no-repeat;
+	background: url("/bg-pic.png") no-repeat;
 	background-size: 100% 100%;
 	text-align: center;
 	margin-top: 40px;
@@ -456,35 +456,35 @@ a {
 }
 
 .three-reason-img1 {
-	background: url(../img/reason1.png) no-repeat;
+	background: url("/reason1.png") no-repeat;
 	background-size: 100% 100%;
 }
 
 .three-reason-img2 {
-	background: url(../img/reason2.png) no-repeat;
+	background: url("/reason2.png") no-repeat;
 	background-size: 100% 100%;
 }
 
 .three-reason-img3 {
-	background: url(../img/reason3.png) no-repeat;
+	background: url("/reason3.png") no-repeat;
 	background-size: 100% 100%;
 }
 
 .three-reason-img1:hover,
 .three-reason-img1 .selected {
-	background: url(../img/reason1-1.png) no-repeat;
+	background: url("/reason1-1.png") no-repeat;
 	background-size: 100% 100%;
 }
 
 .three-reason-img2:hover,
 .three-reason-img2 .selected {
-	background: url(../img/reason2-2.png) no-repeat;
+	background: url("/img/reason2-2.png") no-repeat;
 	background-size: 100% 100%;
 }
 
 .three-reason-img3:hover,
 .three-reason-img3 .selected {
-	background: url(../img/reason3-3.png) no-repeat;
+	background: url("/reason3-3.png") no-repeat;
 	background-size: 100% 100%;
 }
 
@@ -761,7 +761,7 @@ a {
 	margin-top: 80px;
 	width: 100%;
 	height: 130px;
-	background: url(../img/bg-pic3.png) no-repeat;
+	background: url("/bg-pic3.png") no-repeat;
 	background-size: 100% 100%;
 }
 
