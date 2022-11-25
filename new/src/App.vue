@@ -9,7 +9,7 @@
         <div class="l-all-wrapper_inner s-top-noinfo">
             <router-view>
             </router-view>
-        <commonFooter></commonFooter>
+            <commonFooter></commonFooter>
         </div>
     </div>
 </template>
@@ -17,3 +17,6 @@
 import commonHeader from './view/commonHeader.vue'
 import commonFooter from './view/commonFooter.vue'
 </script>
+<style>
+
+</style>
