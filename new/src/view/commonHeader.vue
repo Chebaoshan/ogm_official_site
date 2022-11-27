@@ -90,16 +90,16 @@
                     class="l-mega-navi_title-border common-horizontal2 js-scrollaction-target"></span>Plan<span
                     class="small">会社情報</span></div>
             <ul class="l-mega-navi_nav col2">
-                <li class="a-button"><router-link to="/representative"><span class="fig"><img src="/message.png"
+                <li class="a-button"><router-link @click="handler" to="/representative"><span class="fig"><img src="/message.png"
                                 alt="代表メッセージ"></span><span class="ttl-intro">OGM</span><span
                             class="ttl">代表メッセージ</span><span class="dtl common-font-normal"></span></router-link></li>
-                <li class="a-button"><router-link to="/management"><span class="fig"><img src="/1d6dcc6.jpg"
+                <li class="a-button"><router-link @click="handler" to="/management"><span class="fig"><img src="/1d6dcc6.jpg"
                                 alt="経営方針"></span><span class="ttl-intro">OGM</span><span class="ttl">経営方針</span><span
                             class="dtl common-font-normal"></span></router-link></li>
-                <li class="a-button"><router-link to="/company"><span class="fig"><img src="/top_company.jpg"
+                <li class="a-button"><router-link @click="handler" to="/company"><span class="fig"><img src="/top_company.jpg"
                                 alt="会社概要"></span><span class="ttl-intro">OGM</span><span class="ttl">会社概要</span><span
                             class="dtl common-font-normal"></span></router-link></li>
-                <li class="a-button"><router-link to="/history"><span class="fig"><img src="/af48d23.jpg"
+                <li class="a-button"><router-link @click="handler" to="/history"><span class="fig"><img src="/af48d23.jpg"
                                 alt="沿革"></span><span class="ttl-intro">OGM</span><span class="ttl">沿革</span><span
                             class="dtl common-font-normal"></span></router-link></li>
             </ul>
@@ -108,4 +108,8 @@
     <!-- /HeaderContents -->
 </template>
 <script setup>
+const handler=()=>{
+    document.getElementsByClassName('l-mega-navi_wrap')[0].setAttribute('class','l-mega-navi_wrap')
+    document.getElementsByClassName('l-header')[0].setAttribute('class','l-header')
+}
 </script>
