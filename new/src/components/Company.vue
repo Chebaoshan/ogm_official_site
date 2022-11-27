@@ -3,8 +3,6 @@
             <section>
                 <div class="s-plan_mainvisual">
                     <div class="s-top-mainvisual_video">
-                        <video id="video" playsinline muted autoplay loop>
-                        </video>
                     </div>
                     <div class="s-plan_mainvisual-inner">
                         <div class="s-plan_mainvisual-ttl">

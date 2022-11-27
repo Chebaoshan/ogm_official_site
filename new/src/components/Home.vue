@@ -2,8 +2,7 @@
     <main>
             <section class="s-top-mainvisual">
                 <div class="s-top-mainvisual_video">
-                    <video id="video" playsinline muted autoplay loop>
-                        <source data-src="/202202201637.mp4" type="video/mp4">
+                    <video id="video" src="/202202201637.mp4"  playsinline muted autoplay loop>
                     </video>
                 </div>
                 <div class="s-top-mainvisual_img"><img src="/message.png" alt=""></div>
