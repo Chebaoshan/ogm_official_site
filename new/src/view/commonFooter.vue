@@ -20,7 +20,7 @@
     <div class="l-footer js-footer">
         <section class="l-footer_inner">
             <h6 class="l-footer_logo">
-                <img src="/ogm-word.png" />
+                <router-link to="/"><img src="/ogm-word.png" /></router-link>
             </h6>
             <div class="l-footer_nav common-font-bold">
                 <ul>
@@ -49,7 +49,7 @@
                     </ul>
                     <div class="l-footer_sub-nav common-font-normal">
                         <ul>
-                            <li><a href="privacy_policy.html">OGM個人情報保護方針</a></li>
+                            <li><router-link to="/privacy">OGM個人情報保護方針</router-link></li>
                         </ul>
                     </div>
                 </div>

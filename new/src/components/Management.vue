@@ -56,7 +56,7 @@
                                 <div class="s-plan_data-ttlwrap2">
                                     <h2 class="s-plan_ttl s-plan_ttl--left common-font-bold">サービス.<span class="s-plan_ttl-border common-horizontal2 js-scrollaction-target"></span></h2>
                                     <section class="s-top-primary_numblock">
-                                        <figure class="s-top-primary_ui"><span class="s-top-primary_ui-inner"><img class="js-lazyload fig-pc" data-src="/証券.jpg" alt="業務分野 .01"><img class="js-lazyload fig-sp" data-src="/証券.jpg" alt="業務分野 .01"></span></figure>
+                                        <figure class="s-top-primary_ui"><span class="s-top-primary_ui-inner"><img class="js-lazyload fig-pc" src="/証券.jpg" alt="業務分野 .01"><img class="js-lazyload fig-sp" src="/証券.jpg" alt="業務分野 .01"></span></figure>
                                         <div class="s-top-group_block s-top-group_num">
                                             <h3 class="s-top-group_title s-top-group_title-adjust common-font-bold"><span class="s-top-primary_num common-font-en-400">01</span><span class="s-top-primary_func common-font-bold">業務分野 .01</span>金　融</h3>
                                             <p class="s-top-group_detail">銀行、証券、保険等、お客様の情報システムに関して抱える様々な問題に対して構築、運用、保守までをSIerの一員として技術サービスを提供しています。</p>
@@ -68,7 +68,7 @@
                                         </div>
                                     </section>
                                     <section class="s-top-primary_numblock">
-                                        <figure class="s-top-primary_ui2"><span class="s-top-primary_ui-num-inner"><img class="js-lazyload fig-pc" data-src="/流通.jpg" alt="業務分野 .02"><img class="js-lazyload fig-sp" data-src="/流通.jpg" alt="業務分野 .02"></span></figure>
+                                        <figure class="s-top-primary_ui2"><span class="s-top-primary_ui-num-inner"><img class="js-lazyload fig-pc" src="/流通.jpg" alt="業務分野 .02"><img class="js-lazyload fig-sp" src="/流通.jpg" alt="業務分野 .02"></span></figure>
                                         <div class="s-top-group_block s-top-group_num">
                                             <h3 class="s-top-group_title s-top-group_title-adjust2 common-font-bold"><span class="s-top-primary_num common-font-en-400">02</span><span class="s-top-primary_func common-font-bold">業務分野 .02</span>流　通</h3>
                                             <p class="s-top-group_detail">生産者から消費者へ円滑に移転させる為、情報システム構築、運用、保守までの一貫したソリューションを継続出来る大手SIerの一員として技術サービスを提供しております。</p>
@@ -80,7 +80,7 @@
                                         </div>
                                     </section>
                                     <section class="s-top-primary_numblock">
-                                        <figure class="s-top-primary_ui"><span class="s-top-primary_ui-inner"><img class="js-lazyload fig-pc" data-src="/通信.jpg" alt="業務分野 .03"><img class="js-lazyload fig-sp" data-src="/通信.jpg" alt="業務分野 .03"></span></figure>
+                                        <figure class="s-top-primary_ui"><span class="s-top-primary_ui-inner"><img class="js-lazyload fig-pc" src="/通信.jpg" alt="業務分野 .03"><img class="js-lazyload fig-sp" src="/通信.jpg" alt="業務分野 .03"></span></figure>
                                         <div class="s-top-group_block s-top-group_num">
                                             <h3 class="s-top-group_title s-top-group_title-adjust common-font-bold"><span class="s-top-primary_num common-font-en-400">03</span><span class="s-top-primary_func common-font-bold">業務分野 .03</span>通　信</h3>
                                             <p class="s-top-group_detail">スマートフォン、タブレットをはじめとした様々な通信手段が発展し、イノベーションが激しい情報通信業において、高度化する技術に対応すべくSE,PGとして活躍してます。</p>
@@ -92,7 +92,7 @@
                                         </div>
                                     </section>
                                     <section class="s-top-primary_numblock">
-                                        <figure class="s-top-primary_ui2"><span class="s-top-primary_ui-num-inner"><img class="js-lazyload fig-pc" data-src="/製造.jpg" alt="業務分野 .04"><img class="js-lazyload fig-sp" data-src="/製造.jpg" alt="業務分野 .04"></span></figure>
+                                        <figure class="s-top-primary_ui2"><span class="s-top-primary_ui-num-inner"><img class="js-lazyload fig-pc" src="/製造.jpg" alt="業務分野 .04"><img class="js-lazyload fig-sp" src="/製造.jpg" alt="業務分野 .04"></span></figure>
                                         <div class="s-top-group_block s-top-group_num">
                                             <h3 class="s-top-group_title s-top-group_title-adjust2 common-font-bold"><span class="s-top-primary_num common-font-en-400">04</span><span class="s-top-primary_func common-font-bold">業務分野 .04</span>製　造</h3>
                                             <p class="s-top-group_detail">お客様の経営に最適なソリューションとして会計や人事・給与等、基幹業務システムやECサイトの構築を中心に大手SIerの一員として技術サービスを提供しています。</p>

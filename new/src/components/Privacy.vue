@@ -10,7 +10,7 @@
                                     class="common-vertical-white js-scrollaction-target"></span><span class="s-plan_mainvisual-sbttl common-font-en-interval common-font-normal">About</span> <span class="small">Privacy Policy</span></h1>
                             <p class="common-font-bold">個人情報保護方針について</p>
                         </div>
-                        <figure class="s-plan_mainvisual-bk"><img src="img/1d6dcc6.jpg" alt="About For Privacy Policy"></figure>
+                        <figure class="s-plan_mainvisual-bk"><img src="/1d6dcc6.jpg" alt="About For Privacy Policy"></figure>
                     </div>
                 </div>
                 <div class="s-plan_contents">

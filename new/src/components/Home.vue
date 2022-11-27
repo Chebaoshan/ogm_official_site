@@ -88,7 +88,7 @@
                     </div>
                     <div class="s-top-primary_func-cta">
                         <p class="s-top-plan_att"></p>
-                        <p class="s-top-plan_link common-font-bold"><a href="inquiry.html" target="_blank" rel="noopener noreferrer" style="float:right;">OGMのエントリーへ</a></p>
+                        <p class="s-top-plan_link common-font-bold"><router-link to="/inquiry" target="_blank" rel="noopener noreferrer" style="float:right;">OGMのエントリーへ</router-link></p>
                     </div>
                     <!-- /commonUserComments -->
                     <section class="s-top-primary">

@@ -47,7 +47,7 @@
                                                     <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
                                                     <textarea name="message" class="Form-Item-Textarea" required="required"></textarea>
                                                 </div>
-                                                <input type="checkbox" name="checkbox" required="required"><a href="privacy_policy.html">個人情報の取り扱いに同意する</a>
+                                                <input type="checkbox" name="checkbox" required="required"><router-link to="/privacy">個人情報の取り扱いに同意する</router-link>
 
                                                 <input type="submit" class="Form-Btn" value="送信する">
                                             </div>
