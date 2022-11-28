@@ -59,19 +59,19 @@
         }
 
         loadingBackground.style.opacity = opacity;
-        opacity -= 0.4;
-      }, 1500);
+        opacity -= 0.088;
+      }, 149);
     }
   </script>
 </head>
 
-<body id="top">
+<body id="top" class="js-loaded">
   <div id="app"></div>
   <script type="module" src="/src/main.ts"></script>
   <script src="./src/assets/vendor.bundle.js" defer></script>
   <script src="./src/assets/main.bundle.js" defer></script>
   <script src="./src/assets/custom.js" defer></script>
-  <script type="application/ld+json" src="./src/assets/data.json"></script>
+  <script type="application/ld+json" src="./src/assets/data.json" defer></script>
   <script>
     (function (w, d, s) {
       var f = d.getElementsByTagName(s)[0], j = d.createElement(s);
