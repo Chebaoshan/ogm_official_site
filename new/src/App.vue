@@ -8,11 +8,9 @@
         <commonHeader></commonHeader>
         <div class="l-all-wrapper_inner s-top-noinfo">
             <router-view v-slot="{ Component }">
-              <keep-alive>
                 <transition name="slide-fade" mode="out-in" :duration="{ enter: 550, leave: 350 }">
-                    <component :is="Component" v-if="$route.meta.keepAlive"/>
+                    <component :is="Component"/>
                 </transition>
-              </keep-alive>
             </router-view>
             <commonFooter></commonFooter>
         </div>
