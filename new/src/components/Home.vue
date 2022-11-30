@@ -2,7 +2,7 @@
     <main>
             <section class="s-top-mainvisual">
                 <div class="s-top-mainvisual_video">
-                    <video id="video" src="/202202201637.mp4"  playsinline muted autoplay loop>
+                    <video ref="video" src="/202202201637.mp4"  playsinline muted  loop>
                     </video>
                 </div>
                 <div class="s-top-mainvisual_img"><img src="/message.png" alt=""></div>
@@ -102,4 +102,9 @@
     </main>
 </template>
 <script setup>
+import { onMounted,ref } from 'vue';
+const video=ref(null)
+onMounted(()=>{
+    setTimeout(()=>{video.value.play()},300) 
+})
 </script>
