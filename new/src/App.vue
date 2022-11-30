@@ -9,7 +9,7 @@
         <div class="l-all-wrapper_inner s-top-noinfo">
             <router-view v-slot="{ Component }">
               <keep-alive>
-                <transition name="slide-fade" mode="out-in" :duration="{ enter: 600, leave: 400 }">
+                <transition name="slide-fade" mode="out-in" :duration="{ enter: 550, leave: 350 }">
                     <component :is="Component" v-if="$route.meta.keepAlive"/>
                 </transition>
               </keep-alive>
@@ -32,7 +32,7 @@ import commonFooter from './view/commonFooter.vue'
 }
 .slide-fade-enter-from,
 .slide-fade-leave-to {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .slide-fade-enter-to, .slide-fade-leave-from {
