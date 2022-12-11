@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "element-plus": "^2.2.26",
+    "nodemailer": "^6.8.0",
     "sass": "^1.56.1",
     "scss": "^0.2.4",
     "vue": "^3.2.41",

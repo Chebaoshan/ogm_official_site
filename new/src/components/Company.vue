@@ -17,7 +17,7 @@
                     <div class="l-left-wrapper">
                         <div class="s-plan_contents-inner">
                             <section class="s-plan_intro">
-                                <h2 class="s-plan_ttl common-font-bold">当社は創業１４年目を<br>迎えることが出来ました。<span class="s-plan_ttl-border common-horizontal2 js-scrollaction-target"></span></h2>
+                                <h2 class="s-plan_ttl common-font-bold">当社は創業{{currentYear}}年目を<br>迎えることが出来ました。<span class="s-plan_ttl-border common-horizontal2 js-scrollaction-target"></span></h2>
                                 <p>従業員一同が強い意志と一体感をもって、さらなる発展に取り組んでまいります。</p>
                             </section>
                             <section class="s-plan_data s-top-primary_block s-top-primary_ui-block">
@@ -131,4 +131,8 @@
         </main>
 </template>
 <script setup>
+import { reactive, toRefs } from 'vue';
+const date=new Date().getFullYear();
+const data=reactive({currentYear:date-2008})
+const {currentYear}=toRefs(data)
 </script>

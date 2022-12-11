@@ -63,10 +63,17 @@ const routes = [
   }
 ];
 const router = createRouter({
-  scrollBehavior() {
-    return {
-      top: 0,
-      behavior: "smooth"
+  scrollBehavior(to) {
+    if (to.fullPath === "/success") { 
+      return {
+        top: 400,
+        behavior: "smooth"
+      }
+    } else {
+      return {
+        top: 0,
+        behavior: "smooth"
+      }
     }
   },
   history: createWebHistory(),
