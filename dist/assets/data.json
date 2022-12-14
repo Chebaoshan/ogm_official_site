@@ -1,0 +1,17 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "株式会社オージーエム",
+    "url": "https://www.ogm-jp.com/",
+    "logo": "img/OGM.ico",
+    "telephone": "+81-03-5843-8922",
+    "address":
+    {
+        "@type": "PostalAddress",
+        "postalCode": "110-0024",
+        "addressRegion": "東京都",
+        "addressLocality": "千代田区",
+        "streetAddress": "神田和泉町1-3-13 Ｉ・Ｔ秋葉原ビル ４Ｆ",
+        "addressCountry": "JP"
+    }
+}
